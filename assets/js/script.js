@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     const username = 'mandip47';
     // const API_KEY_LinkPreview = '006e7bfeab5ff5611d21784adea6df64';
     const apiUrl = `https://api.github.com/users/${username}/repos`;
-    const specificNames = ['Nest-js-with-microservice', 'complete-javascript-course', 'sleepr', 'Mandip47','My-Portfolio-Website'];
+    const specificNames = ['Nest-js-with-microservice', 'complete-javascript-course', 'sleepr', 'Mandip47','My-Portfolio-Website','DSA','packages','Python-intro',];
     let html = '';
 
     const response = await fetch(apiUrl);
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     for (const [i, repo] of Object.values(repos).entries()) {
       
       if (specificNames.includes(repo.name)) continue;
-      const language = repo.language === 'C' || repo.language === 'CSS' || repo.language === 'JavaScript' ? repo.language : 'Other Projects';
+      const language = repo.language === 'C' || repo.language === 'Python' || repo.language === 'CSS' || repo.language === 'JavaScript' ? repo.language : 'Other Projects';
       
       // const api = "https://v1.nocodeapi.com/kyahai/link_preview/EmIXjHiwkYvsmRhO";
       // const api = `https://api.linkpreview.net/?key=${API_KEY_LinkPreview}`;
