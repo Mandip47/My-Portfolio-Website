@@ -13,7 +13,9 @@ Welcome to my portfolio website! This site serves as a digital showcase of my sk
 
 ## About Me
 
-Hello! I'm Mandip Chhetri, a passionate Web Developer based in Syangja,Nepal. I thrive on challenges and enjoy turning ideas into reality. With a strong background in Web Development, I bring creativity, dedication, and a detail-oriented approach to everything I do. Learn more about my journey and interests on the [About Me](#about-me) page.
+I am Mandip Chhetri, a tech enthusiast passionate about innovation and bringing impactful ideas to life. Currently, I am deepening my expertise in AI/ML, Data Science, and DSA, leveraging a strong foundation in problem-solving and technical proficiency.
+
+With experience in web development and JavaScript solutions, I have worked on innovative ideas and projects to create intuitive, user-focused platforms. I thrive on tackling complex challenges, delivering creative and efficient solutions that drive exceptional outcomes.
 
 ---
 
