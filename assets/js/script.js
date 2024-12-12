@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     const username = 'mandip47';
     // const API_KEY_LinkPreview = '006e7bfeab5ff5611d21784adea6df64';
     const apiUrl = `https://api.github.com/users/${username}/repos`;
-    const specificNames = ['Nest-js-with-microservice', 'complete-javascript-course', 'sleepr', 'Mandip47','My-Portfolio-Website','DSA','packages','Python-intro',];
+    const specificNames = ['Nest-js-with-microservice', 'complete-javascript-course', 'sleepr', 'Mandip47','My-Portfolio-Website','DSA','packages','Python-intro','Mandip47.github.io','Machine-Learning','Django'];
     let html = '';
 
     const response = await fetch(apiUrl);
